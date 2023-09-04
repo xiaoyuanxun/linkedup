@@ -4,8 +4,8 @@ import Typed from "typed.js";
 import "bootstrap";
 
 // Make the LinkedUp app's public methods available locally
-import linkedup from "ic:canisters/linkedup";
-import linkedup_assets from "ic:canisters/linkedup_assets";
+import linkedup from "../../../.dfx/local/canisters/linkedup/service.did.js";
+import linkedup_assets from "../../../.dfx/local/canisters/linkedup_assets/service.did.js";
 
 import {
   ownProfilePageTmpl,
